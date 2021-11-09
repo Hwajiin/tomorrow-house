@@ -1,3 +1,10 @@
+@import "./base/fonts";
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
 p {
   color: "pink";
+  position: "block";
 }
