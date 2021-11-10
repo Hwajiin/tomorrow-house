@@ -1,16 +1,21 @@
 // Additional Customizing reset CSS
 * {
   margin: 0;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: $font-main;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: $font-main;
+  // 보통 16px이 기본 브라우저 폰트 사이즈로 사용됨
+  font-size: $font-size-16;
 }
 
 body {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: $font-main;
+  color: $primary;
 }
 
 h1 {
