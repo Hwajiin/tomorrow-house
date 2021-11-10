@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "node-sass": "node-sass",
-    "sass": "node-sass -wr src/styles/main.scss src/style.css"
+    "sass": "node-sass -wr --source-map true src/styles/main.scss src/style.css"
   },
   "repository": {
     "type": "git",
