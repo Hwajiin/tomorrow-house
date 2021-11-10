@@ -1,14 +1,8 @@
 @import "./constants/colors";
+@import "./constants/typography";
 
 @import "./base/fonts";
 @import "./base/normalize";
 @import "./base/_reset";
 
-* {
-  font-family: "Noto Sans KR", sans-serif;
-}
-
-p {
-  color: "pink";
-  position: "block";
-}
+@import "./layouts/grids";
