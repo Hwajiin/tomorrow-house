@@ -1,0 +1,62 @@
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "tomorrow" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-bell:before {
+  content: "\e900";
+}
+.ico-bookmark:before {
+  content: "\e901";
+}
+.ico-bookmark-filled:before {
+  content: "\e902";
+}
+.ico-caret:before {
+  content: "\e903";
+}
+.ico-cart:before {
+  content: "\e904";
+}
+.ico-check:before {
+  content: "\e905";
+}
+.ico-chevron:before {
+  content: "\e906";
+}
+.ico-close:before {
+  content: "\e907";
+}
+.ico-community:before {
+  content: "\e908";
+}
+.ico-expert:before {
+  content: "\e909";
+}
+.ico-lock:before {
+  content: "\e90a";
+}
+.ico-menu:before {
+  content: "\e90b";
+}
+.ico-new:before {
+  content: "\e90c";
+}
+.ico-search:before {
+  content: "\e90d";
+}
+.ico-star:before {
+  content: "\e90e";
+}
+.ico-store:before {
+  content: "\e90f";
+}
