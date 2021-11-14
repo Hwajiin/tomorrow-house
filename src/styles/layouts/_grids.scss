@@ -55,7 +55,7 @@ $lg-max-container: ($lg-unit + $gutter) * $lg-columns;
 
   // .col-sm-1 .col-md-2
   [class^="col-"] {
-    padding: $gutter;
+    padding: 0 $gutter;
   }
 
   @for $i from 1 through $sm-columns {
