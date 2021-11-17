@@ -25,6 +25,11 @@
 
   &-item {
     position: relative;
+    border-radius: 2px;
+
+    &:hover {
+      background-color: $background;
+    }
 
     .word-button {
       @include text-style(16, $primary);
@@ -39,12 +44,18 @@
       position: absolute;
       right: 0;
       top: 6px;
+      width: $close-button-size;
+      height: $close-button-size;
 
       i {
-        width: $close-button-size;
-        height: $close-button-size;
         font-size: 16px;
         color: $tertiary;
+      }
+
+      &:hover {
+        i {
+          color: $primary;
+        }
       }
     }
   }
