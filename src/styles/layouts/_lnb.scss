@@ -1,6 +1,5 @@
 .lnb {
   $lnb-link-padding: 8px;
-  $grid-margin: $sm-margin + $gutter / 2;
   // overflow는 기준점이 필요함 + 그 기준에 넘치는 자식 요소들
   overflow-x: auto;
   background-color: $white;
